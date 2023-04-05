@@ -1,3 +1,3 @@
 # Student_Information_System
-学生信息管理系统基于JAVAGUI，mybatis和mysql
+简单的IKUN学生信息管理系统基于JAVAGUI，mybatis和mysql
 项目中含有mybatis映射文件以及数据库文件
