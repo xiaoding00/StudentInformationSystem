@@ -1,2 +1,2 @@
-# Student Information System
-学生信息管理系统基于JAVAGUI，Mybatis和Mysql
+# Student_Information_System
+学生信息管理系统基于JAVAGUI，mybatis和mysql
