@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+      <typeAlias type="pojo.Student"></typeAlias>
+      <typeAlias type="pojo.Teacher"></typeAlias>
+      <typeAlias type="pojo.User"></typeAlias>
+      <typeAlias type="pojo.Class"></typeAlias>
+
+    </typeAliases>
+    
+    
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--数据库连接信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///Information"/>
+                <property name="username" value="root"/>
+                <property name="password" value="ds123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--映射文件-->
+    <mappers>
+          <mapper resource="Mapper\mapper.xml"/>
+<!--如果在同一目录下可直接用包扫方式-->
+<!--        <package name="mapper"/>-->
+    </mappers>
+</configuration>
