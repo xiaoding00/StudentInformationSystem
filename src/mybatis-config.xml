@@ -20,7 +20,7 @@
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql:///Information"/>
                 <property name="username" value="root"/>
-                <property name="password" value="ds123456"/>
+                <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
